@@ -10,4 +10,4 @@ set incsearch
 set ignorecase
 
 set invnumber
-colorscheme industry
+colorscheme peachpuff
