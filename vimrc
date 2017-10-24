@@ -13,7 +13,7 @@ set incsearch     " Incremental search
 set ignorecase
 
 set number
-colorscheme desert
+colorscheme atom-dark
 "colorscheme peachpuff
 
 " Comma is the leader for all the custon mappings
@@ -31,7 +31,7 @@ nmap <Leader><Space> :nohlsearch<cr>
 
 " ------------- Auto Commands -----------------"
 " Automaticaly source vimrc file on save
-augroup autosourcing
-   autocmd!
-   autocmd BufWritePost vimrc source %
-augroup END
+"augroup autosourcing
+"   autocmd!
+"   autocmd BufWritePost vimrc source %
+"augroup END
