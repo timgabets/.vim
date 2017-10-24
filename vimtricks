@@ -1,0 +1,6 @@
+V - VISUAL LINE
+source %  - source current file
+. - exec the last command
+:nohlsearch  - turn off highlight search
+zz - center vertical aligh
+:vsp - vertical split
