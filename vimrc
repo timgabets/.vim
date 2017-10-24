@@ -13,8 +13,11 @@ set incsearch     " Incremental search
 set ignorecase
 
 set number
-colorscheme atom-dark
+
+"-------------Appearance -----------------"
+colorscheme atom-dark-256
 "colorscheme peachpuff
+
 
 " Comma is the leader for all the custon mappings
 let mapleader = ','
