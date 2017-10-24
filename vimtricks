@@ -6,3 +6,9 @@ zz - center vertical aligh
 :vsp - vertical split
 :ls - list of opened buffers
 :b[1-9] - go to buffer [1-9]
+
+
+Vinegar option:
+% - create a new file
+d - create a new directory
+D - delete directory
