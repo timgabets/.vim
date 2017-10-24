@@ -1,3 +1,7 @@
+set nocompatible                                                              " The latest vim settings wanted
+
+source ~/.vim/plugins.vim
+
 " Enabling syntax highlighting
 syntax on
 
