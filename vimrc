@@ -30,4 +30,8 @@ nmap <Leader>ev :tabedit ~/.vim/vimrc<cr>
 nmap <Leader><Space> :nohlsearch<cr>
 
 " ------------- Auto Commands -----------------"
-
+" Automaticaly source vimrc file on save
+augroup autosourcing
+   autocmd!
+   autocmd BufWritePost vimrc source %
+augroup END
