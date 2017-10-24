@@ -1,5 +1,5 @@
 " Enabling syntax highlighting
-"syntax on
+syntax on
 
 set tabstop=3
 set shiftwidth=3
@@ -12,9 +12,9 @@ set hlsearch      " Highlight search
 set incsearch     " Incremental search
 set ignorecase
 
-set number
 
 "-------------Appearance -----------------"
+set number
 colorscheme atom-dark-256
 "colorscheme peachpuff
 
