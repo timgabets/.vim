@@ -34,6 +34,9 @@ nmap <Leader><Space> :nohlsearch<cr>
 
 
 "------------- Splits Management -----------------"
+set splitbelow
+set splitright
+
 nmap <C-H> <C-W><C-H>
 nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>

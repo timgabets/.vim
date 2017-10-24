@@ -4,3 +4,5 @@ source %  - source current file
 :nohlsearch  - turn off highlight search
 zz - center vertical aligh
 :vsp - vertical split
+:ls - list of opened buffers
+:b[1-9] - go to buffer [1-9]
