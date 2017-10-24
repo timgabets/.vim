@@ -32,6 +32,13 @@ nmap <Leader>ev :tabedit ~/.vim/vimrc<cr>
 " Turn off the search highlighting
 nmap <Leader><Space> :nohlsearch<cr>
 
+
+"------------- Splits Management -----------------"
+nmap <C-H> <C-W><C-H>
+nmap <C-J> <C-W><C-J>
+nmap <C-K> <C-W><C-K>
+nmap <C-L> <C-W><C-L>
+
 " ------------- Auto Commands -----------------"
 " Automaticaly source vimrc file on save
 "augroup autosourcing
