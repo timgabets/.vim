@@ -26,9 +26,20 @@ colorscheme atom-dark-256
 " Comma is the leader for all the custon mappings
 let mapleader = ','
 
+"---------------------- Ctrl-P Settings  ------------------------"
+" 
+" https://github.com/ctrlpvim/ctrlp.vim
+"
+" Excluding some file types and directories from Ctrl-P search:
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore = 'node_modules'
+
+
 "-------------Insert Mappings -----------------"
 " imap 
-
+ 
 "------------ Normal mode mappings ------------"
 " Edit vimrc
 nmap <Leader>ev :tabedit ~/.vim/vimrc<cr>
