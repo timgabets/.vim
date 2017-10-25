@@ -37,6 +37,19 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_custom_ignore = 'node_modules'
 
 
+"--------------------- vim-fugitive (git) --------------------"
+" 
+" https://github.com/tpope/vim-fugitive
+"
+" git status
+nmap <Leader>gs :Gstatus<cr>
+" git commit 
+nmap <Leader>gc :Gcommit<cr>
+" git push
+nmap <Leader>gp :Gpush<cr>
+
+
+
 "-------------Insert Mappings -----------------"
 " imap 
  
