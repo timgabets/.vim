@@ -33,6 +33,10 @@ let mapleader = ','
 " Edit vimrc
 nmap <Leader>ev :tabedit ~/.vim/vimrc<cr>
 
+" Toggle NERDtree
+nmap <Leader>d :NERDTreeToggle<cr>
+
+
 " Turn off the search highlighting
 nmap <Leader><Space> :nohlsearch<cr>
 
