@@ -31,7 +31,7 @@ let mapleader = ','
 " https://github.com/ctrlpvim/ctrlp.vim
 "
 " Excluding some file types and directories from Ctrl-P search:
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+set wildignore+=*/tmp/*,*.o,*.so,*.swp,*.zip
 
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_custom_ignore = 'node_modules'
