@@ -1,2 +1,4 @@
 .netrwhist
 *.swp
+bundle/*
+!bundle/Vundle.vim         
