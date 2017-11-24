@@ -19,8 +19,8 @@ set ignorecase
 
 "-------------Appearance -----------------"
 set number
-colorscheme atom-dark-256
-"colorscheme peachpuff
+"colorscheme atom-dark-256
+colorscheme adventurous
 
 
 " Comma is the leader for all the custon mappings
@@ -73,6 +73,9 @@ nmap <C-H> <C-W><C-H>
 nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
 nmap <C-L> <C-W><C-L>
+
+"------------------- Ack/Ag seach ----------------"
+let g:ackprg = 'ag --nogroup --nocolor --column'
 
 " ------------- Auto Commands -----------------"
 " Automaticaly source vimrc file on save
