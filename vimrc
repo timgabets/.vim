@@ -44,7 +44,7 @@ let g:ctrlp_custom_ignore = 'node_modules'
 " git status
 nmap <Leader>gs :Gstatus<cr>
 " git commit 
-nmap <Leader>gc :Gcommit<cr>
+nmap <Leader>gc :Gcommit<cr>i
 " git push
 nmap <Leader>gp :Gpush<cr>
 
