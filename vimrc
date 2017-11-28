@@ -48,6 +48,10 @@ nmap <Leader>gc :Gcommit<cr>
 " git push
 nmap <Leader>gp :Gpush<cr>
 
+"---------------------- Ag (file search) --------------------"
+" 
+" :Ack
+nmap <Leader>a :Ack 
 
 
 "-------------Insert Mappings -----------------"
