@@ -5,8 +5,8 @@ source ~/.vim/plugins.vim
 " Enabling syntax highlighting
 syntax on
 
-set tabstop=2
-set shiftwidth=2
+set tabstop=3
+set shiftwidth=3
 set smarttab
 set et
 set cin
@@ -20,7 +20,7 @@ set ignorecase
 "-------------Appearance -----------------"
 set number
 "colorscheme atom-dark-256
-colorscheme farout
+colorscheme adventurous
 
 
 " Comma is the leader for all the custon mappings
@@ -77,6 +77,9 @@ nmap <C-H> <C-W><C-H>
 nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
 nmap <C-L> <C-W><C-L>
+
+nmap <Leader>- :vertical resize -10<cr>
+nmap <Leader>= :vertical resize +10<cr>
 
 "------------------- Ack/Ag seach ----------------"
 let g:ackprg = 'ag --nogroup --nocolor --column'
