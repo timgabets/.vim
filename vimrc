@@ -5,8 +5,8 @@ source ~/.vim/plugins.vim
 " Enabling syntax highlighting
 syntax on
 
-set tabstop=3
-set shiftwidth=3
+set tabstop=2
+set shiftwidth=2
 set smarttab
 set et
 set cin
