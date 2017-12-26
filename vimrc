@@ -84,6 +84,9 @@ nmap <Leader>= :vertical resize +10<cr>
 "------------------- Ack/Ag seach ----------------"
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
+" Highligh the trailing whitespaces:
+" match ErrorMsg '\s\+$'
+
 " ------------- Auto Commands -----------------"
 " Automaticaly source vimrc file on save
 "augroup autosourcing
