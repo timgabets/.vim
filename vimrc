@@ -90,6 +90,9 @@ let g:airline_theme='lucius'
 
 "------------------- Buffers --------------------"
 nmap <Leader>l :ls<cr>
+nmap <Leader>b :b 
+nmap <Leader><left> :bprev<cr>
+nmap <Leader><right> :bnext<cr>
 
 " Highligh the trailing whitespaces:
 " match ErrorMsg '\s\+$'
