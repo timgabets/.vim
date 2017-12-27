@@ -5,8 +5,8 @@ source ~/.vim/plugins.vim
 " Enabling syntax highlighting
 syntax on
 
-set tabstop=2
-set shiftwidth=2
+set tabstop=3
+set shiftwidth=3
 set smarttab
 set et
 set cin
@@ -83,6 +83,13 @@ nmap <Leader>= :vertical resize +10<cr>
 
 "------------------- Ack/Ag seach ----------------"
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+"------------------- airline  --------------------"
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='lucius'
+
+"------------------- Buffers --------------------"
+nmap <Leader>l :ls<cr>
 
 " Highligh the trailing whitespaces:
 " match ErrorMsg '\s\+$'
