@@ -86,13 +86,14 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 
 "------------------- airline  --------------------"
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='lucius'
+let g:airline_theme='papercolor'
 
 "------------------- Buffers --------------------"
 nmap <Leader>l :ls<cr>
 nmap <Leader>b :b 
-nmap <Leader><left> :bprev<cr>
-nmap <Leader><right> :bnext<cr>
+nmap <Leader>h :bprev<cr>
+nmap <Leader>l :bnext<cr>
+nmap <Leader>q :bd<cr>
 
 " Highligh the trailing whitespaces:
 " match ErrorMsg '\s\+$'
