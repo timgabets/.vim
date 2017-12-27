@@ -94,7 +94,7 @@ if &t_Co >= 256 || has('gui_running')
 
     hi Cursor            ctermbg=15   ctermfg=NONE guibg=#FFFFFF guifg=NONE    cterm=NONE           gui=NONE
     hi CursorColumn      ctermbg=16   ctermfg=NONE guibg=#191B1F guifg=NONE    cterm=NONE           gui=NONE
-    hi CursorLine        ctermbg=16   ctermfg=NONE guibg=#191B1F guifg=NONE    cterm=NONE           gui=NONE
+    hi CursorLine        ctermbg=236   ctermfg=NONE guibg=#191B1F guifg=NONE    cterm=NONE           gui=NONE
     hi CursorLineNr      ctermbg=235  ctermfg=249  guibg=#262626 guifg=#B2B2B2 cterm=NONE           gui=NONE
 
     hi helpLeadBlank     ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
