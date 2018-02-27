@@ -5,17 +5,17 @@ source ~/.vim/plugins.vim
 " Enabling syntax highlighting
 syntax on
 
-set tabstop=3
-set shiftwidth=3
-set smarttab
-set et
-set cin
+set noexpandtab
+set copyindent
+set preserveindent
+set softtabstop=0
+set shiftwidth=8
+set tabstop=8
 
 set showmatch
 set hlsearch      " Highlight search 
 set incsearch     " Incremental search
 set ignorecase
-
 
 "-------------Appearance -----------------"
 set number
