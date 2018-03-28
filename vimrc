@@ -19,8 +19,8 @@ set ignorecase
 
 "-------------Appearance -----------------"
 set number
-colorscheme bubblegum-256-dark
-"colorscheme adventurous
+"colorscheme bubblegum-256-dark
+colorscheme deus
 
 
 " Comma is the leader for all the custon mappings
