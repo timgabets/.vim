@@ -13,21 +13,21 @@ set shiftwidth=8
 set tabstop=8
 
 set showmatch
-set hlsearch      " Highlight search 
+set hlsearch      " Highlight search
 set incsearch     " Incremental search
 set ignorecase
 
 "-------------Appearance -----------------"
 set number
-"colorscheme bubblegum-256-dark
-colorscheme adventurous
+colorscheme bubblegum-256-dark
+"colorscheme adventurous
 
 
 " Comma is the leader for all the custon mappings
 let mapleader = ','
 
 "---------------------- Ctrl-P Settings  ------------------------"
-" 
+"
 " https://github.com/ctrlpvim/ctrlp.vim
 "
 " Excluding some file types and directories from Ctrl-P search:
@@ -38,25 +38,25 @@ let g:ctrlp_custom_ignore = 'node_modules'
 
 
 "--------------------- vim-fugitive (git) --------------------"
-" 
+"
 " https://github.com/tpope/vim-fugitive
 "
 " git status
 nmap <Leader>gs :Gstatus<cr>
-" git commit 
+" git commit
 nmap <Leader>gc :Gcommit<cr>i
 " git push
 nmap <Leader>gp :Gpush<cr>
 
 "---------------------- Ag (file search) --------------------"
-" 
+"
 " :Ack
-nmap <Leader>a :Ack 
+nmap <Leader>a :Ack
 
 
 "-------------Insert Mappings -----------------"
-" imap 
- 
+" imap
+
 "------------ Normal mode mappings ------------"
 " Edit vimrc
 nmap <Leader>ev :tabedit ~/.vim/vimrc<cr>
@@ -90,7 +90,7 @@ let g:airline_theme='papercolor'
 
 "------------------- Buffers --------------------"
 nmap <Leader>l :ls<cr>
-nmap <Leader>b :b 
+nmap <Leader>b :b
 nmap <Leader>h :bprev<cr>
 nmap <Leader>l :bnext<cr>
 nmap <Leader>q :bd<cr>
