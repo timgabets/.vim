@@ -51,7 +51,7 @@ nmap <Leader>gp :Gpush<cr>
 "---------------------- Ag (file search) --------------------"
 "
 " :Ack
-nmap <Leader>a :Ack
+nmap <Leader>a :Ack 
 
 
 "-------------Insert Mappings -----------------"
@@ -95,8 +95,15 @@ nmap <Leader>h :bprev<cr>
 nmap <Leader>l :bnext<cr>
 nmap <Leader>q :bd<cr>
 
+set list!
+set listchars=tab:▸\ ,space:·
+
+"Invisible character colors
+" highlight NonText guifg=#4a4a59
+" highlight SpecialKey guifg=#4a4a59
+
 " Highligh the trailing whitespaces:
-" match ErrorMsg '\s\+$'
+match ErrorMsg '\s\+$'
 
 " ------------- Auto Commands -----------------"
 " Automaticaly source vimrc file on save
