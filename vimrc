@@ -19,9 +19,7 @@ set ignorecase
 
 "-------------Appearance -----------------"
 set number
-"colorscheme bubblegum-256-dark
-colorscheme deus
-
+colorscheme adventurous
 
 " Comma is the leader for all the custon mappings
 let mapleader = ','
