@@ -19,7 +19,9 @@ set ignorecase
 
 "-------------Appearance -----------------"
 set number
-colorscheme adventurous
+"set termguicolors
+colorscheme gruvbox
+set background=dark
 
 " Comma is the leader for all the custon mappings
 let mapleader = ','
@@ -93,8 +95,8 @@ nmap <Leader>h :bprev<cr>
 nmap <Leader>l :bnext<cr>
 nmap <Leader>q :bd<cr>
 
-set list!
-set listchars=tab:▸\ ,space:·
+"set list!
+"set listchars=tab:▸\ ,space:·
 
 "Invisible character colors
 " highlight NonText guifg=#4a4a59
