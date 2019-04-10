@@ -11,8 +11,9 @@ Plugin 'tpope/vim-vinegar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
-Plugin 'ntpeters/vim-better-whitespace'
+"Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'stfl/meson.vim'
+Plugin 'jszakmeister/vim-togglecursor'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
